@@ -11,3 +11,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.html?path=$1 [NC,L,QSA]
 </IfModule>
 </pre>
+
++ https://varvy.com/pagespeed/htaccess.html
